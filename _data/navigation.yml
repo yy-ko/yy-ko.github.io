@@ -8,6 +8,8 @@ main:
     url: /#pub
   - title: "Honors and Awards"
     url: /#honors
+  - title: "CV"
+    url: /assets/files/yyko_cv.pdf
   # - title: "Sample Posts"
     # url: /year-archive/
   # - title: "Sample Collections"
