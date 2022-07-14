@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Home"
+    url: https://yy-ko.github.io/
+  - title: "Bio"
+    url: /#bio
+  - title: "Publications"
+    url: /#pub
+  - title: "Honors and Awards"
+    url: /#honors
+  # - title: "Sample Posts"
+    # url: /year-archive/
+  # - title: "Sample Collections"
+    # url: /collection-archive/
+  # - title: "Sitemap"
+    # url: /sitemap/
