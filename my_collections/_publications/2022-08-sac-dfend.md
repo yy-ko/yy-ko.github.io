@@ -7,7 +7,7 @@ venue: The ACM Symposium on Applied Computing (<strong>ACM SAC</strong>)
 vtype: conference
 year: 2022
 ptype: Full Paper
-paper: https://yy-ko.github.com
-code: https://yy-ko.github.com
+paper: https://dl.acm.org/doi/pdf/10.1145/3477314.3507134
+<!-- code: https://yy-ko.github.com -->
 ---
 

@@ -7,7 +7,7 @@ venue: The ACM International Conference on Information and Knowledge Management 
 vtype: conference
 year: 2021
 ptype: Full Paper
-paper: https://yy-ko.github.com
+paper: https://dl.acm.org/doi/pdf/10.1145/3459637.3482412
 <!-- code: https://yy-ko.github.com -->
 award: Selected as one of the spotlight presentations of CIKM 2021
 ---

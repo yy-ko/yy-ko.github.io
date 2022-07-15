@@ -7,7 +7,7 @@ venue: <strong>Information Sciences</strong> (SCI)
 vtype: journal
 year: 2018
 ptype: Full Paper
-paper: https://yy-ko.github.com
+paper: https://www.sciencedirect.com/science/article/abs/pii/S0020025518305176
 <!-- code: https://yy-ko.github.com -->
 ---
 

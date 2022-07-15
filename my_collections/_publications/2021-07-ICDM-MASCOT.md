@@ -7,7 +7,7 @@ venue: The IEEE International Conference on Data Mining (<strong>IEEE ICDM</stro
 vtype: conference
 year: 2021
 ptype: Full Paper
-paper: https://yy-ko.github.com
-code: https://yy-ko.github.com
+paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9679038
+code: https://github.com/yy-ko/mascot-icdm21
 award: Selected as one of the best-ranked papers of ICDM 2021 for fast-track journal invitation
 ---

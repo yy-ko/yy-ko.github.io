@@ -7,7 +7,7 @@ venue: The IEEE International Parallel & Distributed Processing Symposium (<stro
 vtype: conference
 year: 2021
 ptype: Full Paper
-paper: https://yy-ko.github.com
+paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9460556
 <!-- code: https://yy-ko.github.com -->
 <!-- award: Selected as one of the spotlight presentations of CIKM 2021 -->
 ---
