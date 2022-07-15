@@ -1,0 +1,89 @@
+---
+layout: single
+classes: wide
+author_profile: true
+---
+<div id="bio" class="section">
+<h4 class="section-title">Biography</h4>
+<hr class="sep">
+<p>
+I am currently a postdoctoral researcher in the Department of Computer Science at University of Illinois at Urbana-Champaign (UIUC), where I am working with <a href="http://tonghanghang.org/">Prof. Hanghang Tong</a>. 
+My research interests are in data mining on graph/hypergraph data and machine learning for real-world downstream applications.
+Prior to joining UIUC, I worked as a postdoctoral researcher at Hanyang University with <a href="http://www.agape.hanyang.ac.kr/members/prof">Prof. Sang-Wook Kim</a>. 
+I received my Ph.D. degree in Computer Science from Hanyang University, where I was advised by <a href="http://www.agape.hanyang.ac.kr/members/prof">Prof. Sang-Wook Kim</a>.
+</p>
+</div>
+
+
+<div id="edu" class="section">
+    <h4 class="section-title">Education</h4>
+    <hr class="sep">
+    <p class="major">&#8226; <strong>Hanyang University</strong>, Seoul, South Korea</p>
+    <p class="minor">Ph.D in Computer Science &#8226; 2021</p>
+    <p class="minor">Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/163681">Effective Approaches to Distributed Deep Learning: Methods, Analyses, and Evaluation</a></p>
+    <p class="minor">Advisor: <a href="http://www.agape.hanyang.ac.kr/members/prof">Prof. Sang-Wook Kim</a></p>
+    <p class="major">&#8226; <strong>Hanyang University</strong>, Seoul, South Korea</p>
+    <p class="minor">M.S in Computer Science &#8226; 2013</p>
+</div>
+
+
+<div id="exp" class="section">
+
+    <h4 class="section-title">Experiences</h4>
+    <hr class="sep">
+    <p class="major">&#8226; <strong>University of Illinois at Urbana-Champaign (UIUC)</strong>, IL, USA</p>
+    <p class="minor">Postdoctoral Researcher &#8226; May. 2022 - Present</p>
+    <!-- <p class="minor">Project: Hypergraph mining for real-world downstream applications </p> -->
+    <p class="minor">Advisor: <a href="http://tonghanghang.org/">Prof. Hanghang Tong</a></p>
+
+    <p class="major">&#8226; <strong>Hanyang University</strong>, Seoul, South Korea</p>
+    <p class="minor">Postdoctoral Researcher &#8226; Sep. 2021 - April. 2022</p>
+    <!-- <p class="minor">Project: BK21 FOUR Program for Advanced AI Research and Education</p> -->
+    <p class="minor">Advisor: <a href="http://www.agape.hanyang.ac.kr/members/prof">Prof. Sang-Wook Kim</a></p>
+
+    <p class="major">&#8226; <strong>The Pennsylvania State University (PSU)</strong>, University Park, PA, USA</p>
+    <p class="minor">Visiting Scholar &#8226; Oct. 2019 - Feb. 2020</p>
+    <!-- <p class="minor">Project: Asymmetric Centralized Training for Distributed Deep Learning</p> -->
+    <p class="minor">Advisor: <a href="https://pike.psu.edu/dongwon/">Prof. Dongwon Lee</a></p>
+</div>
+
+
+
+<div id="pub" class="section">
+<h4 class="section-title">Publications</h4>
+<hr class="sep">
+{% assign publications = site.publications | sort: 'id' | reverse %}
+{% for pub in publications %}
+    <div class="row my_paper">
+    {% if pub.vtype == 'journal' %}
+        <div class="column left journal"><p>[{{pub.index}}]</p></div>
+    {% endif %}
+    {% if pub.vtype == 'conference' %}
+        <div class="column left conference"><p>[{{pub.index}}]</p></div>
+    {% endif %}
+        <div class="column right">
+            <p class="title">{{ pub.title }}</p>
+            <p>{{ pub.authors }}</p>
+            <p class="venue">{{ pub.venue }}, {{ pub.year }}</p>
+            <p>{% if pub.paper %}[<a href="{{pub.paper}}">paper</a>]{% endif %}{% if pub.code %}[<a href="{{pub.code}}">code</a>]{% endif %}</p>
+            {% if pub.award %}<p class="award">{{pub.award}}</p>{% endif %}
+			<!-- <p class="media">{% for media in pub.medias %}[<a href="#">{{media}}</a>]{% endfor %}</p> -->
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+
+<div id="honors" class="section">
+    <h4>Honors & Awards</h4>
+    <hr class="sep">
+    <p class="major">&#8226; <strong>Best Ph.D. Dissertation Award</strong></p>
+    <p class="minor">Research Institute of Industrial Science, Hanyang University  &#8226; 2021</p>
+    <p class="major">&#8226; <strong>Best Paper Award</strong></p>
+    <p class="minor">Korea Information Processing Society (KIPS)  &#8226; 2019</p>
+    <p class="major">&#8226; <strong>ACM SIGAPP Student Travel Award</strong></p>
+    <p class="minor">ACM Symposium on Applied Computing  &#8226; 2019</p>
+    <p class="major">&#8226; <strong>Naver Ph.D. Fellowship</strong></p>
+    <p class="minor">Naver Corporation  &#8226; 2017</p>
+</div>
+
