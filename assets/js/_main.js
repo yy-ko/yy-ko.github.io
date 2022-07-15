@@ -65,8 +65,8 @@ $(function() {
   if($("nav.toc").length > 0) {
     var spy = new Gumshoe("nav.toc a", {
       // Active classes
-      navClass: "active", // applied to the nav list item
-      contentClass: "active", // applied to the content
+      // navClass: "active", // applied to the nav list item
+      // contentClass: "active", // applied to the content
 
       // Nested navigation
       nested: false, // if true, add classes to parents of active link
