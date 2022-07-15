@@ -9,5 +9,5 @@ year: 2022
 ptype: Full Paper
 paper: https://dl.acm.org/doi/pdf/10.1145/3485447.3511989
 code: https://github.com/yy-ko/lena-www22 
-media: https://yy-ko.github.com
+medias: https://yy-ko.github.com
 ---

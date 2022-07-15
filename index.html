@@ -63,10 +63,9 @@ I received my Ph.D. degree in Computer Science from Hanyang University, where I 
             <p class="title">{{ pub.title }}</p>
             <p>{{ pub.authors }}</p>
             <p class="venue">{{ pub.venue }}, {{ pub.year }}</p>
+            <p>{% if pub.paper %}[<a href="{{pub.paper}}">paper</a>]{% endif %}{% if pub.code %}[<a href="{{pub.code}}">code</a>]{% endif %}</p>
             {% if pub.award %}<p class="award">{{pub.award}}</p>{% endif %}
-            {% if pub.paper %}[<a href="{{pub.paper}}">paper</a>]{% endif %}
-            {% if pub.code %}[<a href="{{pub.code}}">code</a>]{% endif %}
-            <!-- {% if pub.media %}[<a href="#">media</a>]{% endif %} -->
+			<!-- <p class="media">{% for media in pub.medias %}[<a href="#">{{media}}</a>]{% endfor %}</p> -->
         </div>
     </div>
 {% endfor %}

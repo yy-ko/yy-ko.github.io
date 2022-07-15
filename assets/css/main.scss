@@ -18,10 +18,12 @@ search: false
     font-size:  15px;
 }
 .journal {
-    color:rgba(22, 99, 62, 1);
+    // color:rgba(22, 99, 62, 1);
+    // color: #F49F1C;
 }
 .conference {
-    color: rgba(30, 85, 163, 1);
+    // color: rgba(30, 85, 163, 1);
+    // color: #030E4F;
 }
 .row {
     display: table;
@@ -34,9 +36,9 @@ search: false
 }
 .left {
     width: 10%;
-    font-weight: 900;
+    font-weight: 700;
     padding-top: 2px;
-    font-size: 17px;
+    font-size: 16px;
 }
 .right {
     width: 90%;
@@ -46,18 +48,20 @@ search: false
 p.title{
     font-weight: 900;
     color: (67, 124, 227, 0.96);
-    font-size: 17px;
+    font-size: 16px;
 }
 p.venue{
-    // color: rgba(50, 120, 255, 0.9);
-    color: rgba(30, 85, 163, 1);
+    // color: rgba(50, 105, 203, 1);
+    color: #337def;
 }
 p.award{
-    color:rgba(22, 99, 62, 1);
+    // color:rgba(22, 99, 62, 1);
+    color: #F49F1C;
+    // color: #fcc729;
 }
 
 hr.sep {
-    border: 1px solid rgba(30, 85, 163, 0.5);
+    border: 0.5px solid rgba(130, 130, 130, 0.5);
     border-radius: 1px;
     padding: 0px;
     margin: 0px;  
@@ -98,10 +102,10 @@ body {
     color: rgba(70, 70, 70, 1);
 }
 .section a{
-    color: rgba(30, 85, 163, 1);
+    color: rgba(20, 75, 153, 1);
 }
 a{
-    color: rgba(30, 85, 163, 1);
+    // color: rgba(30, 85, 163, 1);
 }
 .section{
     width: 85%;
