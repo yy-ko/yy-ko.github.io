@@ -70,14 +70,12 @@ hr.sep {
 
 .masthead {
     font-weight: 500;
-    // background: rgba(30, 95, 183, 0.85);
-    // background: rgba(50, 50, 50, 0.85);
     background: rgba(255,255,255,1);  // set a color to hide content that may appear below masthead
-    // color: rgba(200, 200, 200, 0.8);
     font-size: 18px;
     position: fixed;
     top: 0;
-    border-bottom: 1.5px solid #f2f3f3;
+    // border-bottom: 1.5px solid #f2f3f3;
+    border-bottom: 1px solid rgba(130, 130, 130, 0.5);
     -webkit-animation: intro 0.3s both;
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.15s;
@@ -128,6 +126,8 @@ p.minor{ margin-left: 1em}
 .author__avatar img {
     max-width: 150px;
     border-radius: 50%;
+    border-width: 0.5px;
+    border-color: #F49F1C // #337def; // ;
 }
 
 
