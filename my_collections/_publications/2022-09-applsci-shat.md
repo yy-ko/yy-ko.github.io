@@ -1,6 +1,6 @@
 ---
 id: 9
-title: 'A Novel Update Strategies for Asymmetric Centralized Training in Heterogeneous Environments'
+title: 'SHAT: A Novel Asynchronous Training Algorithm That Provides Fast Model Convergence in Distributed Deep Learning'
 index: J03
 authors: <strong><u>Yunyong Ko</u></strong> and Sang-Wook Kim
 venue: <strong>Applied Science</strong> (SCI)
