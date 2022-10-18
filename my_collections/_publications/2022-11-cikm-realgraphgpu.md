@@ -7,7 +7,7 @@ venue: The ACM International Conference on Information and Knowledge Management 
 vtype: conference
 year: 2022
 ptype: short Paper
-paper: https://dl.acm.org/doi/pdf/10.1145/
+paper: https://dl.acm.org/doi/pdf/10.1145/3511808.3557679
 code: https://github.com/yy-ko/
 ---
 
