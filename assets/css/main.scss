@@ -15,7 +15,7 @@ search: false
 }
 .my_paper{
     font-family:  Arial, Helvetica, sans-serif;
-    font-size:  15px;
+    font-size:  14px;
 }
 .journal {
     // color:rgba(22, 99, 62, 1);
@@ -28,27 +28,27 @@ search: false
 .row {
     display: table;
     clear: both;
-    margin-top: 1em;
+    margin-top: 0.7em;
     width: 100%
 }
 .column {
     float: left;
 }
 .left {
-    width: 10%;
+    width: 7%;
     font-weight: 700;
     padding-top: 2px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .right {
-    width: 90%;
+    width: 93%;
 }
 .right > p {  margin-top: 0.0em; margin-bottom: 0em; }
 
 p.title{
     font-weight: 900;
     color: (67, 124, 227, 0.96);
-    font-size: 16px;
+    font-size: 14px;
 }
 p.venue{
     // color: rgba(50, 105, 203, 1);
@@ -61,7 +61,7 @@ p.award{
 }
 
 hr.sep {
-    border: 0.5px solid rgba(130, 130, 130, 0.5);
+    border: 0.2px solid rgba(130, 130, 130, 0.3);
     border-radius: 1px;
     padding: 0px;
     margin: 0px;  
@@ -112,11 +112,12 @@ a{
     width: 85%;
     padding-top: 0;
     padding-bottom: 0;
-    margin-top: 0;
+    margin-top: -1em;
     margin-bottom: 0;
 }
 .section > p{
-    font-size: 17px;
+    width: 95%;
+    font-size: 15px;
     text-align: justify;
     margin-top: 0em; 
     margin-bottom: 0em; 
@@ -138,21 +139,21 @@ p.minor{ margin-left: 1em}
 @media screen and (max-width:1023px) {
     .my_paper{
         font-family:  Arial, Helvetica, sans-serif;
-        font-size:  13px;
+        font-size:  12px;
     }
     .left {
         width: 10%;
         font-weight: 900;
         padding-top: 2px;
-        font-size: 15px;
+        font-size: 14px;
     }
     p.title{
         font-weight: 900;
         color: (67, 124, 227, 0.96);
-        font-size: 15px;
+        font-size: 14px;
     }
     .section > p{
-        font-size: 15px;
+        font-size: 14px;
         text-align: justify;
         margin-top: 0em; 
         margin-bottom: 0em; 
