@@ -58,13 +58,28 @@ p.title{
     font-size: 14px;
 }
 .venue{
-    // color: rgba(50, 105, 203, 1);
-    color: #337def;
+    color: #337def; 
+    // color: #00509D;
 }
+.section a:link {
+  color: #00509D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.section a:visited {
+  color: #00509D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.section a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .award{
-    // color:rgba(22, 99, 62, 1);
     color: #F49F1C;
-    // color: #fcc729;
 }
 
 hr.sep {
@@ -106,12 +121,6 @@ body {
     line-height: 1.5;
     color: rgba(70, 70, 70, 1);
 }
-.section a{
-    color: rgba(20, 75, 153, 1);
-}
-a{
-    // color: rgba(30, 85, 163, 1);
-}
 #pub{
     width: 100%;
 }
@@ -123,14 +132,19 @@ a{
     margin-bottom: 0;
 }
 .section > p{
-    width: 90%;
     font-size: 15px;
     text-align: justify;
     margin-top: 0em; 
     margin-bottom: 0em; 
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 4em;
 }
-p.major{ margin-top: 0.5em}
-p.minor{ margin-left: 1em}
+
+#full-publication{
+    margin-top: -60px;
+}
+
 #bio{
     margin-top: -60px;
 }
@@ -144,7 +158,7 @@ p.minor{ margin-left: 1em}
 
 
 .author__content {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .author__urls-wrapper {
@@ -174,9 +188,6 @@ p.minor{ margin-left: 1em}
     }
     .section > p{
         font-size: 14px;
-        text-align: justify;
-        margin-top: 0em; 
-        margin-bottom: 0em; 
     }
 }
 @media screen and (max-width:768px) {
@@ -194,5 +205,9 @@ p.minor{ margin-left: 1em}
     .right {
         margin-top: -20px;
         width: 100%;
+    }
+    .section > p{
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }
