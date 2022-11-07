@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yunyong Ko"
 description              : "yyko's homepage"
-url                      : "https://yy-ko.gitbhub.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://yy-ko.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 future                   : true
 
 baseurl                  : # the subpath of your site, e.g. "/blog"
