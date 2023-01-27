@@ -58,19 +58,27 @@ p.title{
     font-size: 14px;
 }
 .venue{
-    color: #337def; 
-    // color: #00509D;
+    // color: #34A853;
+}
+.conf{
+    color: #4285F4;
+    // color: #337def; 
+}
+.journal{
+    color: #34A853;
 }
 .section a:link {
   color: #00509D;
   background-color: transparent;
   text-decoration: none;
+  // text-decoration: underline;
 }
 
 .section a:visited {
   color: #00509D;
   background-color: transparent;
   text-decoration: none;
+  // text-decoration: underline;
 }
 
 .section a:hover {
@@ -80,6 +88,7 @@ p.title{
 
 .award{
     color: #F49F1C;
+    // color: #FBBC05;
 }
 
 hr.sep {
