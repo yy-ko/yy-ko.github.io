@@ -1,16 +1,16 @@
 # main links
-main:
-  - title: "Home"
-    # url: https://yy-ko.github.io/
-    url: /index.html
+# main:
+  # - title: "Home"
+    # # url: https://yy-ko.github.io/
+    # url: /index.html
   # - title: "Bio"
     # url: /#bio
-  - title: "Publications"
-    url: /publication/index.html
+  # - title: "Publications"
+    # url: /publication/index.html
   # - title: "Honors & Awards"
     # url: /#honors
-  - title: "CV"
-    url: /assets/files/yyko_cv.pdf
+  # - title: "CV"
+    # url: /assets/files/yyko_cv.pdf
   # - title: "Sample Posts"
     # url: /year-archive/
   # - title: "Sample Collections"

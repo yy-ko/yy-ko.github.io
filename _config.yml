@@ -81,19 +81,19 @@ bing_site_verification   :
 yandex_site_verification :
 baidu_site_verification  :
 
-collections: 
-  publications:
-    sort_by: id
-    sort_order: reserve
-    id: true
-    title: true
-    authors: true
-    venue: true
-    type: true
-    year: true
-    index: true
+# collections: 
+  # publications:
+    # sort_by: id
+    # sort_order: reserve
+    # id: true
+    # title: true
+    # authors: true
+    # venue: true
+    # type: true
+    # year: true
+    # index: true
 
-collections_dir: my_collections
+# collections_dir: my_collections
 
 
 
@@ -128,7 +128,6 @@ author:
   avatar           : "/assets/images/profile.jpg"
   bio              : "Postdoctoral researcher @ UIUC"
   location         : "Urbana, IL, USA"
-  # email            : "yyko@illinois.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -137,14 +136,18 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yy-ko/"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
+      # icon: "fas fa-fw fa-graduation-cap"
+      icon: "fab fa-fw fa-google"
       url: "https://scholar.google.co.kr/citations?user=njeSUnIAAAAJ&hl=ko&authuser=2"
+    # - label: "ORCID"
+      # icon: "fab fa-fw fa-orcid"
+      # url: "https://orcid.org/0000-0003-1283-4697"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/yunyong-ko-41293687/"
-    # - label: "Instagram"
-      # icon: "fab fa-fw fa-instagram"
-      # # url: "https://instagram.com/"
+    - label: "C.V."
+      icon: "far fa-fw fa-file-alt"
+      url: "./assets/files/yyko_cv.pdf"
     # - label: "Website"
       # icon: "fas fa-fw fa-link"
       # # url: "https://your-website.com"

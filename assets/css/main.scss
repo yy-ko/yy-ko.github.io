@@ -8,9 +8,14 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.inner-li{
+.inner-ul{
+    margin-top: 0em;
     margin-bottom: 0em;
     margin-left: -1em;
+}
+.inner-li{
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 .dot-sep{
     margin-right: 5px;
@@ -22,15 +27,19 @@ search: false
 }
 .my_list{
     font-family:  Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size:  14px;
 }
-.journal {
-    // color:rgba(22, 99, 62, 1);
-    // color: #F49F1C;
+.my_list > li{
+    margin-top: 0.75em;
 }
-.conference {
-    // color: rgba(30, 85, 163, 1);
-    // color: #030E4F;
+.title{
+    font-size: 1.1em;
+}
+.year{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:  18px;
 }
 .row {
     display: table;
@@ -48,34 +57,34 @@ search: false
     font-size: 15px;
 }
 .right {
-    width: 93%;
+    width: 90%;
 }
 .right > p {  margin-top: 0.0em; margin-bottom: 0em; }
 
-p.title{
-    font-weight: 900;
-    color: (67, 124, 227, 0.96);
-    font-size: 15px;
-}
 .venue{
     // color: #34A853;
 }
 .conf{
-    color: #4285F4;
-    // color: #337def; 
+    // color: #4285F4;
+  color: #114EC8;
 }
 .journal{
-    color: #34A853;
+    color: #279E46;
+    // color: #34A853;
 }
 .section a:link {
-  color: #00509D;
+  // color: #192EEA;
+  // color: #4285F4;
+  color: #114EC8;
   background-color: transparent;
   text-decoration: none;
-  // text-decoration: underline;
+  text-decoration: underline;
 }
 
 .section a:visited {
-  color: #00509D;
+  // color: #192EEA;
+  // color: #4285F4;
+  color: #114EC8;
   background-color: transparent;
   text-decoration: none;
   // text-decoration: underline;
@@ -129,9 +138,6 @@ body {
     margin: 0px;
     line-height: 1.5;
     color: rgba(70, 70, 70, 1);
-}
-#pub{
-    width: 100%;
 }
 .section{
     width: 100%;
