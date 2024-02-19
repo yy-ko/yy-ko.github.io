@@ -168,8 +168,8 @@ body {
     margin-top: -60px;
 }
 .author__avatar img {
-    max-width: 150px;
-    border-radius: 100%;
+    max-width: 160px;
+    border-radius: 30%;
     border-width: 0.5px;
     border-color: rgba(130, 130, 130, 0.3);
     // border-color: #F49F1C;
@@ -177,7 +177,7 @@ body {
 
 
 .author__content {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .author__urls-wrapper {
@@ -187,6 +187,7 @@ body {
 .author__bio {
     margin-top: -0.4em;
     margin-bottom: -0.2em;
+	font-size: 18px; 
 }
 
 @media screen and (max-width:1023px) {
