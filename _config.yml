@@ -148,7 +148,7 @@ author:
     - label: "C.V."
       icon: "far fa-fw fa-file-alt"
       url: "./assets/files/yyko_cv.pdf"
-    - label: "DMIS Lab @ CAU"
+    - label: "DMAIS Lab @ CAU"
       icon: "fas fa-fw fa-link"
       url: "https://sites.google.com/view/cau-dmis-lab/home"
     # - label: "Twitter"
