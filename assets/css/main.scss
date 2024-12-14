@@ -30,10 +30,23 @@ search: false
     margin-top: 0.5em;
     margin-bottom: 0em;
     font-size:  14px;
+    border-collapse: collapse;
 }
-.my_list > li{
-    margin-top: 0em;
-    margin-bottom: 0.25em;
+
+.paper{
+}
+.paper_head{
+    vertical-align: top;
+    text-align: right;
+    border-bottom: 0px;
+    padding-right: 2em;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+.paper_content{
+    border-bottom: 0px;
+    padding-top: 0em;
+    padding-bottom: 5px;
 }
 .title{
     font-size: 1.1em;
