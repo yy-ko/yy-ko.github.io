@@ -26,7 +26,7 @@ search: false
     color: rgba(250, 50, 50, 0.9);
 }
 .my_list{
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
     margin-top: 0.5em;
     margin-bottom: 0em;
     font-size:  14px;
@@ -46,10 +46,10 @@ search: false
 .paper_content{
     border-bottom: 0px;
     padding-top: 0em;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 .title{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .year{
     font-family:  Arial, Helvetica, sans-serif;
@@ -81,27 +81,29 @@ search: false
 .arxiv{
     color: #b31b1b;
 }
+
 .conf{
     // color: #4285F4;
-  color: #114EC8;
+   color: #114EC8;
+    // color: black;
 }
 .journal{
-    color: #279E46;
-    // color: #34A853;
+    // color: #279E46;
+    color: #34A853;
+    // color: black;
 }
 .section a:link {
-  // color: #192EEA;
-  // color: #4285F4;
-  color: #114EC8;
+   // color: #114EC8;
+  color: #4285F4;
   background-color: transparent;
   text-decoration: none;
-  text-decoration: underline;
+  // text-decoration: underline;
 }
 
 .section a:visited {
+   // color: #114EC8;
   // color: #192EEA;
-  // color: #4285F4;
-  color: #114EC8;
+  color: #4285F4;
   background-color: transparent;
   text-decoration: none;
   // text-decoration: underline;
@@ -109,7 +111,10 @@ search: false
 
 .section a:hover {
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
+    color: #F49F1C;
+    // color: #b31b1b;
+    // color: #F49F1C;
 }
 
 .award{
