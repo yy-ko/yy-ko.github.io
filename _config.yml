@@ -148,7 +148,7 @@ author:
     - label: "C.V."
       icon: "far fa-fw fa-file-alt"
       url: "./assets/files/yyko_cv.pdf"
-    - label: "DMAIS Lab @ CAU"
+    - label: "MINDS Lab @ CAU"
       icon: "fas fa-fw fa-link"
       url: "https://www.dmais.cau.ac.kr"
     # - label: "Twitter"
