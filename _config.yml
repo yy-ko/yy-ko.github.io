@@ -134,7 +134,7 @@ author:
       url: "mailto:yyko@cau.ac.kr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yy-ko/"
+      url: "https://github.com/mindslab-cau"
     - label: "Google Scholar"
       # icon: "fas fa-fw fa-graduation-cap"
       icon: "fab fa-fw fa-google"
